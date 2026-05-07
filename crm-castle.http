@@ -1,0 +1,28 @@
+### Create lead
+POST http://localhost:8080/api/v1/leads
+Content-Type: application/json
+
+{
+  "firstName": "Ana",
+  "lastName": "Lopez",
+  "email": "ana.lopez@example.com",
+  "phone": "+34-600-000-001",
+  "companyName": "Acme Corp",
+  "source": "Website",
+  "notes": "Interested in enterprise plan"
+}
+
+### List leads
+GET http://localhost:8080/api/v1/leads?page=0&size=20&sort=createdAt,desc
+
+### Get lead by id
+GET http://localhost:8080/api/v1/leads/1
+
+### Convert lead
+POST http://localhost:8080/api/v1/leads/1/convert
+
+### List contacts
+GET http://localhost:8080/api/v1/contacts?page=0&size=20&sort=createdAt,desc
+
+### List companies
+GET http://localhost:8080/api/v1/companies?page=0&size=20&sort=createdAt,desc

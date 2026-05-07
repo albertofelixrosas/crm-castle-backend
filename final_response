@@ -1,0 +1,18 @@
+Listo. Ya te deje una carpeta de documentacion completa para usarla como base de inicializacion del proyecto.
+
+Archivos creados:
+- README.md
+- 01-contexto-y-objetivo.md
+- 02-reglas-negocio-salesforce-inspired.md
+- 03-requisitos-funcionales-no-funcionales.md
+- 04-arquitectura-tecnica.md
+- 05-contrato-api-rest.md
+- 06-plan-inicializacion-copilot.md
+- 07-prompt-final-para-copilot.md
+
+Como usarlo con Copilot para la siguiente fase:
+1. Usa 07-prompt-final-para-copilot.md como prompt principal.
+2. Adjunta 06-plan-inicializacion-copilot.md como checklist de ejecucion.
+3. Si Copilot duda en reglas de negocio, referencia 02-reglas-negocio-salesforce-inspired.md y 05-contrato-api-rest.md.
+
+Si quieres, en el siguiente paso ejecuto yo directamente la inicializacion del proyecto Spring Boot en este workspace usando esta documentacion como fuente.

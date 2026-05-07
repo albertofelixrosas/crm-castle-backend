@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:crm_castle_test;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        default_schema: crm
+        dialect: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+  flyway:
+    enabled: true
+    default-schema: crm
+    schemas: crm
+
+server:
+  port: 8081
